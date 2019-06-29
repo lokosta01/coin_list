@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CoinTest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_coin">coin_name</string>
+    <string name="price_coin">price_name</string>
+    <string name="change_coin">change</string>
+    <string name="symbol_coin">coin_symbol</string>
+    <string name="price_info">price</string>
+    <string name="price_info_name">price_info</string>
+    <string name="circulating_supply">circulating_supply</string>
+    <string name="circulating_supply_info">supply</string>
+</resources>

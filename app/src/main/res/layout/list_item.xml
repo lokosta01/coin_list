@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    style="@style/Card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="2dp"
+    android:paddingTop="2dp"
+    android:background="@color/md_blue_grey_600">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/md_blue_grey_50">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            >
+
+           <androidx.appcompat.widget.AppCompatTextView
+               android:id="@+id/coinName"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/name_coin"
+               android:textStyle="bold"
+               android:textColor="@color/md_indigo_900"
+               android:textSize="20sp"
+               >
+           </androidx.appcompat.widget.AppCompatTextView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/coinSymbol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/symbol_coin"
+            android:textColor="#979797"
+            android:textSize="15sp">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:layout_weight="2">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/coinPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price_coin"
+            android:gravity="center"
+            android:textColor="@color/md_indigo_600"
+            android:textSize="15sp">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/coin24HourChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_coin"
+            android:textColor="@color/md_indigo_600"
+            android:gravity="center"
+            android:textSize="15sp">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>
